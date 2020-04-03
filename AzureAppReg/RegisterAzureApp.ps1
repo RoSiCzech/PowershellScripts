@@ -3,6 +3,9 @@
 # When script finishes, you must manualy go to Azure portal, find your app registration and manualy grant CONSENT!!
 # ##################################### RoSiCzech 2.4.2020 #####################################
 
+#Connect to your azure tenant, optionally set subscription
+Connect-AzureAD
+
 $appName = "SomeName" # <-- insert your appname
 $appURI = "SomeNameURI" # <-- Insert App URI (must be unique in your Tenant)
 $ReplyUrl = "https://YourOriginalAXURL.com" # <-- insert you AX Demo URL
