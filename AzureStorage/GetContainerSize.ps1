@@ -7,6 +7,7 @@
 #       the list of blobs.
 
 # these are for the storage account to be used
+# downloaded from https://docs.microsoft.com/en-us/azure/storage/scripts/storage-blobs-container-calculate-size-powershell
 #Install-Module -Name Az -AllowClobber -Scope CurrentUser
 #Connect-AzAccount
 
